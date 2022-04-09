@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="i_am_here">I Am Here</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+
+
+    <string name="Password">Password</string>
+    <string name="phone_no">Phone No</string>
+</resources>
