@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_200"
+    android:background="#020C45"
     tools:context=".MainActivity">
 
     <ImageView
@@ -36,7 +36,7 @@
         android:text="@string/i_am_here"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#0C0909"
+        android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         android:typeface="serif"
@@ -48,14 +48,18 @@
 
     <Button
         android:id="@+id/Login"
+        style="@android:style/Widget.Material.Button.Toggle"
         android:layout_width="185dp"
         android:layout_height="50dp"
         android:fontFamily="sans-serif-medium"
+        android:onClick="openActivity"
         android:text="@string/Login"
         android:textAlignment="center"
-        android:textColor="#090909"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:iconPadding="20dp"
-        app:iconTint="#F4E7E7"
+        app:iconTint="#9A0ECD"
         app:layout_constraintBottom_toTopOf="@+id/Register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.476"
@@ -65,13 +69,15 @@
 
     <Button
         android:id="@+id/Register"
+        style="@android:style/Widget.DeviceDefault.Button.Small"
         android:layout_width="185dp"
         android:layout_height="50dp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/Register"
         android:textAlignment="center"
-        android:textColor="#0E0E0E"
-        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
         app:iconPadding="20dp"
         app:iconTint="#F4E7E7"
         app:layout_constraintBottom_toBottomOf="parent"
