@@ -18,7 +18,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="@string/Login"
         android:textAlignment="center"
-        android:textColor="#101010"
+        android:textColor="#FFFDFD"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

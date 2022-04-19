@@ -10,11 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false"
             android:label="Login"
-            android:parentActivityName=".MainActivity"
-            />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
