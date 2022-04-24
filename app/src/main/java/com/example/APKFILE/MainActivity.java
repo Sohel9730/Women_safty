@@ -20,5 +20,14 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Login ", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this,login.class);
         startActivity(intent);
-    }
+
+
 }
+
+    public void register(View view) {
+        Toast.makeText(this, "Register ", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, Register.class);
+        startActivity(intent);
+
+    }
+    }

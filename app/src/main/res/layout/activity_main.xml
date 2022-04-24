@@ -78,6 +78,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/input_bg"
         android:fontFamily="sans-serif-medium"
+        android:onClick="register"
         android:text="@string/Register"
         android:textAlignment="center"
         android:textColor="@color/white"
