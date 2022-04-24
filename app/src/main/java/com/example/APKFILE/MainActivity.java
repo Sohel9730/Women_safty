@@ -21,16 +21,4 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,login.class);
         startActivity(intent);
     }
-
-    // ........ code is not working ...... make changes in the code for register activity ......
-
-
-//    public void openActivity2(View v){
-//        Toast.makeText(this, "Register ", Toast.LENGTH_SHORT).show();
-//        Intent intent = new Intent(this,Register.class);
-//        startActivity(intent);
-//    }
-
-
-
 }
